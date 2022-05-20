@@ -16,3 +16,6 @@ def run_eda() :
         st.dataframe( car_df )
     elif selected == radio_menu[1] :
         st.dataframe(car_df.describe())
+
+    # 컬럼명을 보여주고, 컬럼을 선택하면, 해당 컬럼의 최대값 데이터와
+    # 최소값 데이터를 보여준다.
