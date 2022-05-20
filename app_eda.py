@@ -19,3 +19,7 @@ def run_eda() :
 
     # 컬럼명을 보여주고, 컬럼을 선택하면, 해당 컬럼의 최대값 데이터와
     # 최소값 데이터를 보여준다.
+
+    col_list = car_df.columns[ 4 : ]
+
+    st.selectbox('최대 최소 원하는 컬럼 선택', col_list)
