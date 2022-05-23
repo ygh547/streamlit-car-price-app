@@ -21,7 +21,10 @@ def run_ml() :
     else :
         gender = 1
     age = st.number_input('나이 입력',0,120)
-    Salary = st.number_input('나이 입력',0)
-    card = st.number_input('카드빛 입력',0)
-    cash = st.number_input('자산 입력',0)
+    Salary = st.number_input('연봉 입력',0)
+    debt = st.number_input('카드빛 입력',0)
+    worth = st.number_input('자산 입력',0)
+
+    
+
 
