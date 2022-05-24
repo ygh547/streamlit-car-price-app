@@ -50,4 +50,6 @@ def run_ml() :
         y_pred = round(y_pred[0,0])
         st.write('이 사람의 구매 가능 금액은'  + str(y_pred) + '달러입니다.')
 
+        
+
 
